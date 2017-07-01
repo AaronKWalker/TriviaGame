@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+
+    <!-- jQuery -->
+    <script
+src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+
+
+
+      <!-- my style sheet-->
+      <link rel="stylesheet" href="assets/css/style.css">
+
+      <!-- my javascript -->
+      <script src="assets/javascript/app.js" charset="utf-8"></script>
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta charset="utf-8">
+    <title>Fictional City Trivia</title>
+  </head>
+  <body>
+
+      <nav class="deep-orange lighten-1">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Fictional City Trivia</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li id="count1"><a>1</a></li>
+            <li id="count2"><a>2</a></li>
+            <li id="count3"><a>3</a></li>
+            <li id="count4"><a>4</a></li>
+            <li id="count5"><a>5</a></li>
+            <li id="count6"><a>6</a></li>
+            <li id="count7"><a>7</a></li>
+            <li id="count8"><a>8</a></li>
+            <li id="count9"><a>9</a></li>
+            <li id="count10" class="active"><a>10</a></li>
+          </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+
+    <!--[this section will be hidden once questions start]-->
+    <main id="startPage" class="row">
+      <div class="divider"></div>
+        <div class="section backgroundPic">
+          <h1 id="title">Welcome to the Fictional City Trivia</h1>
+          <p class="hint"></p>
+        </div>
+      <button class="waves-effect waves-light btn-large red" id="startBtn">START</button>
+
+    </main>
+
+    <!--[this section will be hidden until the questions start]-->
+    <main id="questionPage">
+      <div class="section backgroundPic">
+        <div class="row">
+          <h1 id="statusMessage"></h1>
+          <p class="hint"></p>
+        </div>
+      </div>
+    </main>
+    </div>
+    <footer class="page-footer center deep-orange lighten-1">
+      <div class="footer-copyright center">
+        <div id="buttonWrapper" class="row center">
+          <button id="0" class = "waves-effect waves-light btn-large answerBtn"></button>
+          <button id="1" class = "waves-effect waves-light btn-large answerBtn"></button>
+          <button id="2" class = "waves-effect waves-light btn-large answerBtn"></button>
+          <button id="3" class = "waves-effect waves-light btn-large answerBtn"></button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

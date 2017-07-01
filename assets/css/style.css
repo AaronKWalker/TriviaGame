@@ -1,0 +1,57 @@
+main {
+  transition: all 0.5s ease;
+}
+
+
+.backgroundPic {
+  min-height: 80vh;
+  background-size: cover;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  text-shadow: 3px 3px 2px black;
+  text-align: center;
+}
+
+#startBtn {
+  margin-left: 30vw;
+}
+
+.hint {
+  font-size: 36px;
+  color: white;
+  text-shadow: 3px 3px 2px black;
+  text-align: center;
+
+}
+
+.btn-large {
+  line-height: normal;
+  font-size: 36px;
+}
+.btn-large i {
+  font-size: 36px;
+  margin: 0;
+  box-shadow: 3px 3px 2px black;
+}
+
+.answerBtn {
+  font-size: 16px;
+  min-width: 70px;
+  margin: inherit 40px;
+}
+
+#correctWrong img {
+  max-width: 300px;
+  max-height: 300px;
+}
+#correctCount a, #wrongCount a {
+  padding-top: 6px;
+}
+
+nav div ul li.active a {
+  color: red;
+  text-shadow: 1px 1px 1px black;
+}
